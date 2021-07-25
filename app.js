@@ -14,7 +14,7 @@ mongoose.connect("mongodb://172.105.47.8:50003/teleShop", {
   useNewUrlParser: true,
 });
 
-const token = "1908747465:AAGSoje1vVoZz-NpRcD4zgotY3T7fsAdGPA";
+const token = "";
 
 const bot = new telegramBot(token, { polling: true });
 
